@@ -4,7 +4,7 @@ from aiogram.filters import Command
 from aiogram.types import CallbackQuery
 from aiogram.fsm.context import FSMContext
 from datetime import datetime, timedelta
-from bot.models import DeliveryState, CustomCakeState
+from backend.bake_cake.bot.models import DeliveryState, CustomCakeState
 from aiogram import Bot, types
 from config import ADMIN_GROUP_ID
 from .keyboards import (
