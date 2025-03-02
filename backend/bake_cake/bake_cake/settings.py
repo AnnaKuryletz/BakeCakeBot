@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'cakeapp',
-    'bot'
+    'backend.bake_cake.bot',
 ]
 
 MIDDLEWARE = [
